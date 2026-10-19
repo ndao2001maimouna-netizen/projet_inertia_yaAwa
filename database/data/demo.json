@@ -1,0 +1,753 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Céréales",
+      "color": "#b98a38",
+      "image": "/images/cereales.svg"
+    },
+    {
+      "id": "2",
+      "name": "Légumes",
+      "color": "#468060",
+      "image": "/images/legumes.svg"
+    },
+    {
+      "id": "3",
+      "name": "Épicerie",
+      "color": "#b65c3a",
+      "image": "/images/epicerie.svg"
+    },
+    {
+      "id": "4",
+      "name": "Poisson",
+      "color": "#477d87",
+      "image": "/images/poisson.svg"
+    },
+    {
+      "id": "5",
+      "name": "Saveurs locales",
+      "color": "#956687",
+      "image": "/images/local.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Riz brisé parfumé",
+      "categoryId": "1",
+      "price": 17500,
+      "salePrice": null,
+      "stock": 18,
+      "unit": "sac de 25 kg",
+      "origin": "Vallée du fleuve",
+      "description": "Riz brisé parfumé, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/riz.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Oignons de Potou",
+      "categoryId": "2",
+      "price": 750,
+      "salePrice": 700,
+      "stock": 4,
+      "unit": "kg",
+      "origin": "Potou",
+      "description": "Oignons de Potou, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/oignons.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Mil local",
+      "categoryId": "1",
+      "price": 800,
+      "salePrice": null,
+      "stock": 24,
+      "unit": "kg",
+      "origin": "Kaolack",
+      "description": "Mil local, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/mil.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "4",
+      "name": "Fonio précuit",
+      "categoryId": "1",
+      "price": 2200,
+      "salePrice": 2000,
+      "stock": 12,
+      "unit": "sachet de 500 g",
+      "origin": "Kédougou",
+      "description": "Fonio précuit, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/fonio.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "5",
+      "name": "Maïs en grains",
+      "categoryId": "1",
+      "price": 650,
+      "salePrice": null,
+      "stock": 30,
+      "unit": "kg",
+      "origin": "Tambacounda",
+      "description": "Maïs en grains, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/mais.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "6",
+      "name": "Tomates fraîches",
+      "categoryId": "2",
+      "price": 1000,
+      "salePrice": null,
+      "stock": 16,
+      "unit": "kg",
+      "origin": "Niayes",
+      "description": "Tomates fraîches, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/tomates.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "7",
+      "name": "Carottes",
+      "categoryId": "2",
+      "price": 900,
+      "salePrice": null,
+      "stock": 7,
+      "unit": "kg",
+      "origin": "Niayes",
+      "description": "Carottes, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/carottes.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "8",
+      "name": "Gombo frais",
+      "categoryId": "2",
+      "price": 1200,
+      "salePrice": null,
+      "stock": 0,
+      "unit": "kg",
+      "origin": "Thiès",
+      "description": "Gombo frais, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/gombo.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "9",
+      "name": "Huile d’arachide",
+      "categoryId": "3",
+      "price": 4500,
+      "salePrice": 4200,
+      "stock": 20,
+      "unit": "bouteille de 2 L",
+      "origin": "Kaolack",
+      "description": "Huile d’arachide, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/huile.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "10",
+      "name": "Sucre en poudre",
+      "categoryId": "3",
+      "price": 650,
+      "salePrice": null,
+      "stock": 32,
+      "unit": "kg",
+      "origin": "Démonstration",
+      "description": "Sucre en poudre, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/sucre.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "11",
+      "name": "Sel iodé",
+      "categoryId": "3",
+      "price": 300,
+      "salePrice": null,
+      "stock": 45,
+      "unit": "sachet de 500 g",
+      "origin": "Démonstration",
+      "description": "Sel iodé, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/sel.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "12",
+      "name": "Pâte d’arachide",
+      "categoryId": "3",
+      "price": 1500,
+      "salePrice": null,
+      "stock": 5,
+      "unit": "pot de 500 g",
+      "origin": "Kaolack",
+      "description": "Pâte d’arachide, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/pate.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "13",
+      "name": "Thiof",
+      "categoryId": "4",
+      "price": 4500,
+      "salePrice": null,
+      "stock": 8,
+      "unit": "kg",
+      "origin": "Joal",
+      "description": "Thiof, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/thiof.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "14",
+      "name": "Sardinelles",
+      "categoryId": "4",
+      "price": 1200,
+      "salePrice": 1000,
+      "stock": 25,
+      "unit": "kg",
+      "origin": "Kayar",
+      "description": "Sardinelles, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/sardinelles.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "15",
+      "name": "Crevettes",
+      "categoryId": "4",
+      "price": 6500,
+      "salePrice": null,
+      "stock": 0,
+      "unit": "kg",
+      "origin": "Casamance",
+      "description": "Crevettes, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/crevettes.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "16",
+      "name": "Poisson fumé",
+      "categoryId": "4",
+      "price": 3000,
+      "salePrice": null,
+      "stock": 6,
+      "unit": "sachet de 500 g",
+      "origin": "Saint-Louis",
+      "description": "Poisson fumé, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/fume.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "17",
+      "name": "Bissap séché",
+      "categoryId": "5",
+      "price": 1200,
+      "salePrice": null,
+      "stock": 22,
+      "unit": "sachet de 250 g",
+      "origin": "Kaolack",
+      "description": "Bissap séché, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/bissap.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "18",
+      "name": "Bouye en poudre",
+      "categoryId": "5",
+      "price": 1800,
+      "salePrice": 1600,
+      "stock": 13,
+      "unit": "sachet de 500 g",
+      "origin": "Tambacounda",
+      "description": "Bouye en poudre, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/bouye.svg",
+      "active": true,
+      "featured": true
+    },
+    {
+      "id": "19",
+      "name": "Café Touba",
+      "categoryId": "5",
+      "price": 2500,
+      "salePrice": null,
+      "stock": 18,
+      "unit": "sachet de 500 g",
+      "origin": "Démonstration",
+      "description": "Café Touba, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/cafe.svg",
+      "active": true,
+      "featured": false
+    },
+    {
+      "id": "20",
+      "name": "Madd en conserve",
+      "categoryId": "5",
+      "price": 2000,
+      "salePrice": null,
+      "stock": 9,
+      "unit": "pot de 400 g",
+      "origin": "Casamance",
+      "description": "Madd en conserve, une sélection pour les repas et les moments de partage. Prix et provenance fictifs pour cet exercice.",
+      "image": "/images/madd.svg",
+      "active": false,
+      "featured": false
+    }
+  ],
+  "deliveryZones": [
+    {
+      "id": "1",
+      "name": "Castors",
+      "fee": 500
+    },
+    {
+      "id": "2",
+      "name": "Liberté 6",
+      "fee": 1000
+    },
+    {
+      "id": "3",
+      "name": "Grand-Yoff",
+      "fee": 1000
+    },
+    {
+      "id": "4",
+      "name": "Ouakam",
+      "fee": 2000
+    },
+    {
+      "id": "5",
+      "name": "Parcelles Assainies",
+      "fee": 1500
+    }
+  ],
+  "promotions": [
+    {
+      "id": "1",
+      "code": "TERANGA10",
+      "percentage": 10,
+      "active": true,
+      "expiresAt": null
+    },
+    {
+      "id": "2",
+      "code": "INACTIF15",
+      "percentage": 15,
+      "active": false,
+      "expiresAt": null
+    },
+    {
+      "id": "3",
+      "code": "EXPIRE20",
+      "percentage": 20,
+      "active": true,
+      "expiresAt": "2020-01-01T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "demo-001",
+      "reference": "TM-DEMO-001",
+      "customer": {
+        "fullName": "Client Démo 01",
+        "phone": "000000001",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "1",
+          "name": "Riz brisé parfumé",
+          "unit": "sac de 25 kg",
+          "unitPrice": 17500,
+          "quantity": 2,
+          "lineTotal": 35000
+        }
+      ],
+      "subtotal": 35000,
+      "discount": {
+        "type": "FIDELITE",
+        "code": null,
+        "percentage": 5,
+        "amount": 1750
+      },
+      "deliveryFee": 0,
+      "total": 33250,
+      "status": "EN_ATTENTE",
+      "createdAt": "2026-10-01T10:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-002",
+      "reference": "TM-DEMO-002",
+      "customer": {
+        "fullName": "Client Démo 02",
+        "phone": "000000002",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Oignons de Potou",
+          "unit": "kg",
+          "unitPrice": 700,
+          "quantity": 1,
+          "lineTotal": 700
+        }
+      ],
+      "subtotal": 700,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 700,
+      "status": "CONFIRMEE",
+      "createdAt": "2026-10-02T10:00:00.000Z",
+      "updatedAt": "2026-10-02T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-003",
+      "reference": "TM-DEMO-003",
+      "customer": {
+        "fullName": "Client Démo 03",
+        "phone": "000000003",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Fonio précuit",
+          "unit": "sachet de 500 g",
+          "unitPrice": 2000,
+          "quantity": 2,
+          "lineTotal": 4000
+        }
+      ],
+      "subtotal": 4000,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 4000,
+      "status": "EN_PREPARATION",
+      "createdAt": "2026-10-03T10:00:00.000Z",
+      "updatedAt": "2026-10-03T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-004",
+      "reference": "TM-DEMO-004",
+      "customer": {
+        "fullName": "Client Démo 04",
+        "phone": "000000004",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "9",
+          "name": "Huile d’arachide",
+          "unit": "bouteille de 2 L",
+          "unitPrice": 4200,
+          "quantity": 1,
+          "lineTotal": 4200
+        }
+      ],
+      "subtotal": 4200,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 4200,
+      "status": "PRETE",
+      "createdAt": "2026-10-04T10:00:00.000Z",
+      "updatedAt": "2026-10-04T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-005",
+      "reference": "TM-DEMO-005",
+      "customer": {
+        "fullName": "Client Démo 05",
+        "phone": "000000005",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "17",
+          "name": "Bissap séché",
+          "unit": "sachet de 250 g",
+          "unitPrice": 1200,
+          "quantity": 2,
+          "lineTotal": 2400
+        }
+      ],
+      "subtotal": 2400,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 2400,
+      "status": "TERMINEE",
+      "createdAt": "2026-10-05T10:00:00.000Z",
+      "updatedAt": "2026-10-05T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-006",
+      "reference": "TM-DEMO-006",
+      "customer": {
+        "fullName": "Client Démo 06",
+        "phone": "000000006",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "18",
+          "name": "Bouye en poudre",
+          "unit": "sachet de 500 g",
+          "unitPrice": 1600,
+          "quantity": 1,
+          "lineTotal": 1600
+        }
+      ],
+      "subtotal": 1600,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 1600,
+      "status": "ANNULEE",
+      "createdAt": "2026-10-06T10:00:00.000Z",
+      "updatedAt": "2026-10-06T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": true,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-007",
+      "reference": "TM-DEMO-007",
+      "customer": {
+        "fullName": "Client Démo 07",
+        "phone": "000000007",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "19",
+          "name": "Café Touba",
+          "unit": "sachet de 500 g",
+          "unitPrice": 2500,
+          "quantity": 2,
+          "lineTotal": 5000
+        }
+      ],
+      "subtotal": 5000,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 5000,
+      "status": "TERMINEE",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-008",
+      "reference": "TM-DEMO-008",
+      "customer": {
+        "fullName": "Client Démo 08",
+        "phone": "000000008",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Maïs en grains",
+          "unit": "kg",
+          "unitPrice": 650,
+          "quantity": 1,
+          "lineTotal": 650
+        }
+      ],
+      "subtotal": 650,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 650,
+      "status": "EN_ATTENTE",
+      "createdAt": "2026-10-08T10:00:00.000Z",
+      "updatedAt": "2026-10-08T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-009",
+      "reference": "TM-DEMO-009",
+      "customer": {
+        "fullName": "Client Démo 09",
+        "phone": "000000009",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "6",
+          "name": "Tomates fraîches",
+          "unit": "kg",
+          "unitPrice": 1000,
+          "quantity": 2,
+          "lineTotal": 2000
+        }
+      ],
+      "subtotal": 2000,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 2000,
+      "status": "CONFIRMEE",
+      "createdAt": "2026-10-09T10:00:00.000Z",
+      "updatedAt": "2026-10-09T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    },
+    {
+      "id": "demo-010",
+      "reference": "TM-DEMO-010",
+      "customer": {
+        "fullName": "Client Démo 10",
+        "phone": "000000010",
+        "zoneId": "1",
+        "zoneName": "Castors",
+        "address": "Adresse fictive de démonstration"
+      },
+      "fulfillmentMode": "PICKUP",
+      "note": "Commande fictive ; aucun contact réel.",
+      "items": [
+        {
+          "productId": "10",
+          "name": "Sucre en poudre",
+          "unit": "kg",
+          "unitPrice": 650,
+          "quantity": 1,
+          "lineTotal": 650
+        }
+      ],
+      "subtotal": 650,
+      "discount": {
+        "type": "AUCUNE",
+        "code": null,
+        "percentage": 0,
+        "amount": 0
+      },
+      "deliveryFee": 0,
+      "total": 650,
+      "status": "TERMINEE",
+      "createdAt": "2026-10-10T10:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z",
+      "stockApplied": true,
+      "stockRestored": false,
+      "processingState": "COMPLETE"
+    }
+  ],
+  "settings": {
+    "storeName": "Teranga Market",
+    "currency": "FCFA",
+    "lowStockThreshold": 5
+  }
+}
